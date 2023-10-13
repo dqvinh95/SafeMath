@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 contract useSafeMath{
 //  using  SafeMath for uint256;
     function number (uint8 a, uint8 b) public pure returns(uint8){
-      return a+b;
+      return a.add(b);
     }
 }
 
